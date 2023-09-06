@@ -106,7 +106,7 @@ We welcome contributions from the open-source community! Feel free to fork the p
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/c/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/GautamPatil1/EBikeStore/blob/main/LICENSE) file for details.
 
 ----------
 
