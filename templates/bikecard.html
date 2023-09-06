@@ -1,0 +1,133 @@
+{% for i in data %}
+    
+        <form method="post" action="{% url 'index' %}">
+            {% csrf_token %}
+            <input type="hidden" name="company" value="{{ i.Company }}">
+            <input type="hidden" name="name" value="{{ i.Name }}">
+            <input type="hidden" name="price" value="{{ i.Price }}">
+            <input type="hidden" name="range" value="{{ i.Range }}">
+            <input type="hidden" name="speed" value="{{ i.Speed }}">
+            <input type="hidden" name="weight" value="{{ i.Weight }}">
+            <input type="hidden" name="image" value="{{ i.Image }}">
+            <input type="hidden" name="height" value="{{ i.Height }}">
+            <input type="hidden" name="colors" value="{{ i.Colors }}">
+            <input type="hidden" name="power" value="{{ i.Power }}">
+            <input type="hidden" name="warranty" value="{{ i.Warranty }}">
+            <input type="hidden" name="time" value="{{ i.Time }}">
+            <input type="hidden" name="max_power" value="{{ i.Max_Power }}">
+            <input type="hidden" name="touches" value="{{ i.Touches }}">
+
+
+
+            <!-- Add more hidden fields as needed -->
+            <button type="submit">
+                <div class="bike-card">
+                    <div class="img">
+                        <img src="{{ i.Image }}" alt="{{company}} {{name}}">
+                    </div>
+                    <div class="bike-info">
+                        <div class="bikename">
+                            {{ i.Company }} {{ i.Name }}
+                        </div>
+                        <div class="price">
+                            ₹ {{ i.Price }}*
+                        </div>
+                        <div class="specs">
+                            <div class="range">
+                                {{ i.Range }}
+                            </div>
+                            <div class="speed">
+                                {{ i.Speed }}
+                            </div>
+                            <div class="time">
+                                4 hrs
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+        
+    
+{% endfor %}
+
+
+<style>
+    button{
+        background-color: #040D12;
+        margin: .75rem;
+        border-radius: .25rem;
+        border: 2px solid white;
+        cursor: pointer;
+        width: 335px;
+    }
+    .bike-info{
+        color: white;
+        background-color: #183D3D;
+        margin: 0rem .5rem .5rem .5rem ;
+        padding: .5rem;
+        border-radius: .5rem;
+        border: 2px solid white;
+        self-align: bottom;
+    }
+    .bikename{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: .25rem 1rem;
+    }
+
+    .price{
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: .5rem 1rem;
+    }
+
+    .specs{
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .range, .speed, .time {
+        border: 1px solid white;
+        padding: .5rem;
+        border-radius: 2.5rem;
+    }
+
+    body{
+        background-color: #93B1A6;
+    }
+
+    @media screen and (min-width: 600px) {
+        .list{
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+        button{
+            flex-direction: row;
+            width: 276px;
+            height: auto;
+            margin:.5rem;
+        }
+
+        .container{
+            margin: 0 18rem;
+            padding: 0 2rem;
+            background-color: #5C8374;
+        }
+
+        .text{
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .fa-motorcycle, .fa-location-dot{
+            font-size: 2rem;
+        }
+        body{
+            background-color: #01252C;
+        }
+        
+    
+    }
+</style>

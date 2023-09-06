@@ -1,0 +1,64 @@
+{% load static %}
+<style>
+  .img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+  }
+
+  .img img{
+    width: 100%;
+    border-radius: .25rem;
+    backgroud
+  }
+
+  .shilling{
+    border: 2px solid black;
+    font-weight:550;
+
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
+
+
+  .coverimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+</style>
+
+<div class="coverimg">
+  <img src="{% static 'cover---.png' %}" alt="">
+</div>
+
+<div class="shilling">
+  <p>
+    Searching for electric bikes or electric scooters in India? EBikeStore is the right place for you.
+    <br>
+    <br>
+     There are 368 electric bikes/motorcycles currently on sale from various manufacturers like Ather, Ola, TVS and many more starting from Rs 25,000.
+     
+  </p>
+</div>
+
+<style>
+  .shilling{
+    background-color: #01252C;
+    color: #88DF95;
+    border: 2px solid white;
+  }
+  @media screen and (min-width: 600px) {
+    .coverimg img{
+      border-radius: 1rem;
+      width: 100%;
+      object-fit: cover;
+      
+      border: 2px solid white;
+    }
+  }
+</style>

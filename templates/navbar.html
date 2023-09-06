@@ -1,0 +1,39 @@
+{% load static %}
+<div class="navbar">
+    <span class="logo">
+        <a href="{% url 'index' %}" ><img src="{% static 'logo.png' %}" alt="" srcset=""></a>
+    </span>
+    <span class="text">
+        EBikeStore
+    </span>
+        <a href="https://goo.gl/maps/APZhjcQ1vVJuowBY8" target="_blank"><i class="fa-solid fa-location-dot fa-2x"></i></a>
+    </span>
+</div>
+
+<style>
+    
+.navbar{
+    color: #88DF95;
+    display: flex;
+    justify-content: space-between;
+    background-color: #01252C;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin: .25rem;
+    border: 2px solid white;
+}
+
+.logo img{
+    height: 2.5rem;
+
+    
+}
+
+.text{
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+</style>

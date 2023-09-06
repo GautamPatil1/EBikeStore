@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{company}} {{name}}</title>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="img-container">
+            <img src={{image}} alt="Image of {{company}} {{name}} Electric Vehicle">
+        </div>
+    
+        <div class="info-container">
+            <center><h1>{{company}} {{name}} </h1></center>
+    
+            <p>In the fast-paced world of urban mobility, the {{ company }} {{ name }} Electric Vehicle stands as a testament to innovation and sustainable transportation. As we delve into the details, you'll discover why this vehicle is a game-changer for commuters seeking an eco-friendly and efficient mode of transportation.</p>
+    
+            <h2>Price</h2>
+            <p>Let's begin with affordability. Priced at ₹{{ price }}, the {{ company }} {{ name }} Electric Vehicle offers an accessible entry point into the world of electric mobility. It provides an excellent value proposition, ensuring that cost doesn't become a barrier to adopting clean transportation.</p>
+    
+            <h2>Range</h2>
+            <p>Covering an impressive distance of {{ range }} kilometers on a single charge, the {{ company }} {{ name }} Electric Vehicle eliminates the anxiety of frequent charging stops. Whether you're navigating city streets or planning longer journeys, this vehicle empowers you with the freedom to explore without range limitations.</p>
+    
+            <h2>Speed</h2>
+            <p>With a maximum speed of {{ speed }} kilometers per hour, the {{ company }} {{ name }} Electric Vehicle combines efficiency with performance. It effortlessly cruises through urban traffic, allowing you to reach your destination swiftly and with confidence.</p>
+    
+            <h2>Weight</h2>
+            <p>Sturdy and robust, the {{ company }} {{ name }} Electric Vehicle weighs {{ weight }} kilograms. This weight not only contributes to the vehicle's durability but also provides stability, ensuring a safe and secure riding experience for commuters of all kinds.</p>
+    
+            <h2>Charging Time</h2>
+            <p>Charging your electric vehicle should be a hassle-free experience. The {{ company }} {{ name }} Electric Vehicle understands this, with a charging time of just {{ time }}. Spend less time waiting and more time enjoying the open road.</p>
+    
+            <h2>Power</h2>
+            <p>Under the hood, this electric vehicle boasts a powerful {{ power }} motor. It delivers impressive acceleration and performance, making your daily commute a breeze. From navigating busy streets to conquering steep inclines, the {{ company }} {{ name }} Electric Vehicle has the power you need.</p>
+    
+            <h2>Height</h2>
+            <p>Comfort is a priority during your rides, and the {{ company }} {{ name }} Electric Vehicle's ergonomic design ensures just that. With a height of {{ height }} millimeters, you'll experience a comfortable and upright riding position, reducing fatigue during long journeys.</p>
+    
+            <h2>Warranty</h2>
+            <p>Investing in an electric vehicle is a commitment, and the {{ company }} {{ name }} Electric Vehicle offers peace of mind with a generous {{ warranty }}. This warranty ensures that your investment is protected, and you can ride with confidence knowing that you're covered.</p>
+    
+            <h2>Max Power</h2>
+            <p>For those moments when you need an extra burst of speed or power, the {{ company }} {{ name }} Electric Vehicle has a maximum power output of {{ max_power }}. Whether it's for a quick overtaking maneuver or conquering challenging terrain, this vehicle has you covered.</p>
+    
+            <h2>Touchscreen</h2>
+            <p>When it comes to user-friendly features, the {{ company }} {{ name }} Electric Vehicle keeps things simple with intuitive controls. Unlike some scooters that offer complex touchscreen interfaces, this vehicle prioritizes safety and ease of use. Whether you're a tech enthusiast or prefer a straightforward interface, you'll find it easy to operate.</p>
+    
+            <h2>Available Colors</h2>
+            <p>Express your style with a range of available colors, including: {{colors }}.</p>
+
+            <h2>Location Near You</h2>
+            <iframe
+        frameborder="0"
+        style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCoHZ7CBF-fmnQb9GTF_h2sLeHkkHnlL-M&q={{company}}+{{name}}+showroom+near+me"
+        allowfullscreen>
+    </iframe>
+    
+            <h2>Conclusion</h2>
+            <p>With its impressive range, powerful performance, and thoughtful design, the {{ company }} {{ name }} Electric Vehicle is not just a mode of transportation—it's a lifestyle choice. Elevate your daily commute, reduce your carbon footprint, and embrace the future of urban mobility with this exceptional vehicle.</p>
+        </div>
+  
+        
+    </div>
+</body>
+
+<!-- Add more details here -->
+<style>
+    iframe{
+        
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+      }
+    *{
+        margin:0;
+        padding:0;
+        border-sizing:border-box;
+    }
+    .container{
+        padding: .5rem;
+        color: white;
+        background-color: #040D12;
+    }
+
+    .img-container{
+        width: 100%;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        border: 2px solid #283618;
+    }
+
+    .info-container{
+        border-radius: 1rem;
+        margin-top: 1rem;
+        background-color:#183D3D;
+        padding: .5rem;
+        border: 2px solid white;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    ul li{
+        margin-left: 5rem;
+    }
+
+    body{
+        background-color: black;
+    }
+    @media screen and (min-width: 600px) {
+        .container{
+            margin: 0rem 25rem 0rem 25rem;
+        }
+        h1{
+            font-size: 5rem;
+        }
+        h2{
+            font-size: 3rem;
+            margin-top: 2rem;
+            text-decoration: underline;
+        }
+        .info-container{
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+
+    
+</style>
+
+<script>
+    console.log("Hello world!");
+    const colors = '{{ colors_json|escapejs }}';
+    function createColorSpans(colors) {
+        
+        const colorContainer = document.getElementById('colorContainer');
+        colorContainer.innerHTML = ''; // Clear existing content
+        
+        const colorList = colors.split(',').map(color => color.trim());
+        
+        colorList.forEach(color => {
+            const span = document.createElement('span');
+            span.style.display = 'inline-block';
+            span.style.width = '100px';
+            span.style.height = '100px';
+            span.style.backgroundColor = color;
+            span.style.marginRight = '5px';
+            colorContainer.appendChild(span);
+        });
+    }
+    
+    const initialColors = colors;
+    createColorSpans(initialColors);
+    console.log("Hello"); 
+</script>
+
+</html>
