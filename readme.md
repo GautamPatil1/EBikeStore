@@ -1,4 +1,4 @@
-# EBikeStore- Electric Two Wheeler Research Hub
+# EBike-Store Electric Two Wheeler Research Hub
 
 ![lo](https://drive.google.com/uc?export=view&id=1tuFBPOWMZt_UFJ0mtyf-YKmpW5mPqdRM)
 
@@ -16,13 +16,13 @@ Welcome to the EBikeStore! 🛵⚡
 -   [Contributing](#contributing)
 -   [License](#license)
 
-## Introduction
+### Introduction
 
 The EBikeStore is a comprehensive web platform designed to provide users with a wealth of information about electric bikes and scooters available in India. We understand the growing interest in eco-friendly transportation options, and we're here to help you make informed decisions.
 
 Our platform offers detailed insights into various electric two-wheelers, including specifications, pricing, range, and more. Whether you're a potential buyer or just a curious enthusiast, this hub is your one-stop destination for all things electric two-wheelers!
 
-## Features
+### Features
 
 -   **Extensive Database**: We've compiled an extensive database of electric two-wheelers available in India, ensuring you have access to the most up-to-date information.
     
@@ -37,7 +37,7 @@ Our platform offers detailed insights into various electric two-wheelers, includ
 -   **Regular Updates**: We strive to keep our database updated with the latest electric two-wheeler releases and price changes.
     
 
-## Technologies Used
+### Technologies Used
 
 Our project utilizes a wide range of cutting-edge technologies to deliver a seamless user experience:
 
@@ -89,7 +89,7 @@ Before you get started, make sure you have the following prerequisites in place:
 2.  Access the web application at `http://localhost:8000` in your web browser.
     
 
-## Usage
+### Usage
 
 1.  Browse through the extensive catalog of electric two-wheelers.
     
@@ -100,7 +100,7 @@ Before you get started, make sure you have the following prerequisites in place:
 4.  Stay up to date with the latest updates and price changes.
     
 
-## Contributing
+### Contributing
 
 We welcome contributions from the open-source community! Feel free to fork the project, create issues, submit pull requests, or reach out to us with your ideas and suggestions.
 
