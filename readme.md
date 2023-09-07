@@ -24,7 +24,7 @@ Our platform offers detailed insights into various electric two-wheelers, includ
 
 ## Features
 
--   **Extensive Database**: We've compiled an extensive database of electric two-wheelers available in India, ensuring you have access to the most up-to-date information.
+-   **Extensive Database**: We've compiled an extensive database of electric two wheelers available in India, ensuring you have access to the most up-to-date information.
     
 -   **Detailed Information**: Each two-wheeler listing provides comprehensive details, including price, range, speed, weight, and charging time.
     
@@ -39,7 +39,7 @@ Our platform offers detailed insights into various electric two-wheelers, includ
 
 ## Technologies Used
 
-Our project utilizes a wide range of cutting-edge technologies to deliver a seamless user experience:
+Our project utilizes a wide range of cutting edge technologies to deliver a seamless user experience:
 
 -   **Django**: The web framework that powers our backend, ensuring robustness and security.
     
