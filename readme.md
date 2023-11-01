@@ -28,7 +28,7 @@ Our platform offers detailed insights into various electric two-wheelers, includ
 
 -   **Extensive Database**: We've compiled an extensive database of electric two wheelers available in India, ensuring you have access to the most up-to-date information.
     
--   **Detailed Information**: Each two-wheeler listing provides comprehensive details, including price, range, speed, weight, and charging time.
+-   **Detailed Information**: Each two wheeler listing provides comprehensive details, including price, range, speed, weight, and charging time.
     
 -   **User-Friendly Interface**: Our user-friendly interface ensures that navigating through the website is a breeze, whether you're a tech expert or a beginner.
     
