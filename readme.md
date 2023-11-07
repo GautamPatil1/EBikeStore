@@ -22,7 +22,7 @@ Live at [ebikestore.gautampatil.tech](https://ebikestore.gautampatil.tech)
 
 The EBikeStore is a comprehensive web platform designed to provide users with a wealth of information about electric bikes and scooters available in India. We understand the growing interest in eco-friendly transportation options, and we're here to help you make informed decisions.
 
-Our platform offers detailed insights into various electric two-wheelers, including specifications, pricing, range, and more. Whether you're a potential buyer or just a curious enthusiast, this hub is your one-stop destination for all things electric two-wheelers!
+Our platform offers detailed insights into various electric two-wheelers, including specifications, pricing, range, and more. Whether you are a potential buyer or just a curious enthusiast, this hub is your one-stop destination for all things electric two-wheelers!
 
 ### Features
 
