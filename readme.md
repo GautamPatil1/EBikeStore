@@ -4,7 +4,7 @@
 
 Welcome to the EBikeStore! 🛵⚡
 
-Live at [ebikestore.gautampatil.tech](https://ebikestore.gautampatil.tech)
+Live at [ebikestore.tech](https://ebikestore.tech)
 
 ## Table of Contents
 
