@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-%kmz#lz*j(58fjyojf4&_mn^@1h=(zb=gmh%siuv%r8(hf90=)
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://d837-103-141-116-103.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://ebikestore.tech', 'https://ebikestore.gautampatil.tech']
 
 # Application definition
 
