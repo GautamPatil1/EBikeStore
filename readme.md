@@ -108,6 +108,13 @@ Before you get started, make sure you have the following prerequisites in place:
 
 We welcome contributions from the open-source community! Feel free to fork the project, create issues, submit pull requests, or reach out to us with your ideas and suggestions.
 
+### Contributer
+
+- Gautam Patil
+- Vishal Pise
+- Kunal Sapkale
+- Omkar Shinde
+  
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/GautamPatil1/EBikeStore/blob/main/LICENSE) file for details.
